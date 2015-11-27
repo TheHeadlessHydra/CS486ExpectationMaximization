@@ -81,4 +81,16 @@ public class PSgDT {
     public double getD2TfSf() {
         return (1d - D2TfSt);
     }
+
+    @Override
+    public String toString() {
+        return "PSgDT{" +
+                "D0TtSt=" + D0TtSt +
+                ", D1TtSt=" + D1TtSt +
+                ", D2TtSt=" + D2TtSt +
+                ", D0TfSt=" + D0TfSt +
+                ", D1TfSt=" + D1TfSt +
+                ", D2TfSt=" + D2TfSt +
+                '}';
+    }
 }

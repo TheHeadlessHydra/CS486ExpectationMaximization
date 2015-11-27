@@ -29,4 +29,13 @@ public class PD {
     public void setD2(double d2) {
         this.d2 = d2;
     }
+
+    @Override
+    public String toString() {
+        return "PD{" +
+                "d0=" + d0 +
+                ", d1=" + d1 +
+                ", d2=" + d2 +
+                '}';
+    }
 }

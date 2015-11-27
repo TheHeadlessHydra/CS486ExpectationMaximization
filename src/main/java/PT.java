@@ -15,4 +15,11 @@ public class PT {
     public double getTf() {
         return (1- Tt);
     }
+
+    @Override
+    public String toString() {
+        return "PT{" +
+                "Tt=" + Tt +
+                '}';
+    }
 }

@@ -2,9 +2,9 @@
  * Created by Serj on 24/11/2015.
  */
 public class PFgD {
-    private double D0Ft = .05;
-    private double D1Ft = .02;
-    private double D2Ft = .08;
+    private double D0Ft = .05d;
+    private double D1Ft = .2d;
+    private double D2Ft = .8d;
 
     public double getD0Ft() {
         return D0Ft;
@@ -40,5 +40,14 @@ public class PFgD {
 
     public double getD2Ff() {
         return (1d - D2Ft);
+    }
+
+    @Override
+    public String toString() {
+        return "PFgD{" +
+                "D0Ft=" + D0Ft +
+                ", D1Ft=" + D1Ft +
+                ", D2Ft=" + D2Ft +
+                '}';
     }
 }

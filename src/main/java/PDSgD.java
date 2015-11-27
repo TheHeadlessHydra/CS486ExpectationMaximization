@@ -41,4 +41,13 @@ public class PDSgD {
     public double getD2DSf() {
         return (1d - D2DSt);
     }
+
+    @Override
+    public String toString() {
+        return "PDSgD{" +
+                "D0DSt=" + D0DSt +
+                ", D1DSt=" + D1DSt +
+                ", D2DSt=" + D2DSt +
+                '}';
+    }
 }
